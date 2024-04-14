@@ -1,0 +1,21 @@
+git config --global user.name "SaintKliment
+git config --global user.email "evgeniy122uryad@gmail.com"
+git init
+git add <file> = добавление файла
+git add . = добавить все файлы
+git commit -m "имя коммита" = создание коммита
+git remote add origin <link> = подключение к удаленному репозиторию
+git push origin <nameOfBranch> = пушим коммит в репозиторий
+Добавление изменений в коде в репозиторий:
+1) git add .
+2) git commit -m "nameOfCommit"
+3) git push
+.gitignore = создаешь файл и в него названия всех файлов, папок, которые не надо пушить
+.gitkeep = если поместить в folder, то ту можно будет коммитить и пушить
+git checkout -b NewNameOfBranch
+git log = все коммиты
+git push --set-upstream origin NewnameOfBranch = чтоб ветка появилась, только при первом пуше новой ветки
+git checkout nameOfBranch = перейти в другую ветку
+git merge NewNameOfBrach = влить изменения в мастер ветку
+git branch -D  NewNameOfBranch = удалить ветку локально, но не в репозитории
+git push --delete origin NewNameOfBramch = удалить ветку в репозитории
